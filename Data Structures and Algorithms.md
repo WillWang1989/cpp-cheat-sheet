@@ -169,6 +169,8 @@ d.clear();
 
 **Do not use for**
 * Direct access
+**notes**
+[List containers](https://www.cplusplus.com/reference/list/list/) are implemented as doubly-linked lists
 
 **Time Complexity**
 
