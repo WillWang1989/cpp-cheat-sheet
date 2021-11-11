@@ -62,6 +62,9 @@
 * Dynamically changing storage
 * Non-integer indexing
 
+**notes**
+* Internally, [vectors](https://www.cplusplus.com/reference/vector/vector/) use a dynamically allocated array to store their elements. 
+
 **Time Complexity**
 
 | Operation    | Time Complexity |
@@ -171,7 +174,7 @@ d.clear();
 * Direct access
 
 **notes**
-[List containers](https://www.cplusplus.com/reference/list/list/) are implemented as doubly-linked lists
+* [List containers](https://www.cplusplus.com/reference/list/list/) are implemented as doubly-linked lists
 
 **Time Complexity**
 
@@ -262,7 +265,7 @@ l.reverse();
 
 **Notes**
 * Typically ordered maps (`std::map`) are slower than unordered maps (`std::unordered_map`)
-* Maps are typically implemented as *binary search trees*
+* [Maps](https://www.cplusplus.com/reference/map/map/) are typically implemented as *binary search trees*
 
 **Time Complexity**
 
@@ -333,7 +336,7 @@ unsigned int count = m.count("key");
 * Direct access by index
 
 **Notes**
-* Sets are often implemented with binary search trees
+* [Sets](https://www.cplusplus.com/reference/set/set/) are often implemented with binary search trees
 
 **Time Complexity**
 
