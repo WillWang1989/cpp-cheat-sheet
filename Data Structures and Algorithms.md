@@ -794,7 +794,7 @@ class Solution {
     }
     int randomized_partition(vector<int>& nums, int l, int r) {
 
-        int i = rand() % (r - l + 1) + l; // 随机选一个作为我们的主元
+        int i = rand() % (r - l + 1) + l; // 随机选一个作为我们的主元, l not 1
         swap(nums[r], nums[i]);
         return partition(nums, l, r);
     }
